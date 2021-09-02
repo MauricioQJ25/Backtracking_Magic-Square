@@ -3,14 +3,15 @@ This repo is used for homework 01, Advance Programming
 
 # Usage
 
-Windows: Run the jar file generated with the following command 
+**Windows**: Run the jar file generated with the following command 
 
+```
 c:\ java -jar TareaCuadrosMagicos.java <squareNumber>
-
-i.e.::
-
+```
+**i.e.**:
+```
   c:\ java -jar TareaCuadrosMagicos.java 3
-
+```
 Output Example::
 
 ```  
