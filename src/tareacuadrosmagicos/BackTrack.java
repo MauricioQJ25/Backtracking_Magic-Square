@@ -1,6 +1,7 @@
 
 package tareacuadrosmagicos;
 import java.io.*;
+import java.sql.Timestamp;
 /**
  * 
  * @author
@@ -26,6 +27,7 @@ public class BackTrack {
     public void btCuadros(int tamano, int k, int[][] cuadro, int[] numDisponibles){
         try{
             FileWriter writer = new FileWriter(myObj, true);
+
             if(k==1){
                 writer.write(System.lineSeparator());
                 writer.flush();
@@ -45,6 +47,14 @@ public class BackTrack {
                     if(k==valAux1){
                         writer.write(System.lineSeparator());
                         writer.flush();
+                        
+                        // Getting Actual Timestamp
+                        Long datetime = System.currentTimeMillis();
+                        Timestamp timestamp = new Timestamp(datetime);
+                        writer.write("Current Time Stamp: "+timestamp);
+                        writer.flush();
+                        writer.write(System.lineSeparator());
+
                         for(int auxP1=0; auxP1<tamano; auxP1++){
                             writer.write("[");
                             writer.flush();
