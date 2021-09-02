@@ -1,13 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tareacuadrosmagicos;
 
+package tareacuadrosmagicos;
 /**
- *
- * @author Saturn
+ * 
+ * @author
+ * Luis Roberto Climent Melendez,
+ * Mauricio Quijada Jiménez,
+ * Juan Miguel Vásquez Aguilar
+ * 
  */
 public class SiguienteCuadro {
     public SiguienteCuadro(){
@@ -58,12 +57,12 @@ public class SiguienteCuadro {
                 
                 for (int i3 =1; i3<tamano; i3++){
                     if(auxColumna[i3]!=auxFila[0]){
-                    res=false;
+                        res=false;
+                    }
                 }
             }
-            }
             
-            //Checar diagonal 2
+            // Checar diagonal 2
             if (k==tamano*tamano){
                 int diag2=0;
                 for(int i=0; i<tamano; i++){
@@ -73,12 +72,7 @@ public class SiguienteCuadro {
                     res=false;
                 }
             }
-            
         }
-        
-        
-        
-        
         return res;
     }
     
@@ -105,9 +99,7 @@ public class SiguienteCuadro {
         
         cuadroR[fila][columna]=enteroDisponible;
         return cuadroR;
-    }
-    
-            
+    }           
 }
 
 
