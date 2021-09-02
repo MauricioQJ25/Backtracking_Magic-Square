@@ -1,6 +1,11 @@
 # Backtracking_Magic-Square
 This repo is used for homework 01, Advance Programming
 
+# Report Links
+
+[link to edit overleaf](https://www.overleaf.com/project/612e9b903e4aa5391809a80e)
+
+
 # Usage
 
 **Windows**: Run the jar file generated with the following command 
